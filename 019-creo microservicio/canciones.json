@@ -1,0 +1,172 @@
+[
+    {
+        "titulo": "Solamente tu",
+        "artista": "Pablo Alborán",
+        "significado": "canción romántica que expresa la profunda admiración y amor que siente el protagonista hacia una persona especial"
+    },
+    {
+        "titulo": "Rock your body",
+        "artista": "Justin Timberlake",
+        "significado": "es una canción divertida y energizante que habla sobre disfrutar el momento en una fiesta o en la pista de baile"
+    },
+    {
+        "titulo": "Bohemian Rhapsody",
+        "artista": "Queen",
+        "significado": "canción épica que narra el conflicto interno de una persona tras cometer un crimen"
+    },
+    {
+        "titulo": "Wonderwall",
+        "artista": "Oasis",
+        "significado": "canción icónica que habla sobre la esperanza de que una persona especial pueda salvar o cambiar la vida del protagonista"
+    },
+    {
+        "titulo": "Shape of You",
+        "artista": "Ed Sheeran",
+        "significado": "una canción pegajosa y romántica que describe la atracción física entre dos personas y cómo se conectan a través de ella"
+    },
+    {
+        "titulo": "Rolling in the Deep",
+        "artista": "Adele",
+        "significado": "canción poderosa que habla sobre la traición, la venganza y el dolor tras el final de una relación amorosa"
+    },
+    {
+        "titulo": "Hotel California",
+        "artista": "Eagles",
+        "significado": "canción metafórica que explora los peligros de la tentación y la adicción en un entorno aparentemente encantador"
+    },
+    {
+        "titulo": "Smells Like Teen Spirit",
+        "artista": "Nirvana",
+        "significado": "himno del grunge que captura la frustración y la apatía de la juventud durante los años 90"
+    },
+    {
+        "titulo": "Billie Jean",
+        "artista": "Michael Jackson",
+        "significado": "canción que relata la angustia de una relación complicada en la que una mujer acusa al protagonista de ser el padre de su hijo"
+    },
+    {
+        "titulo": "Imagine",
+        "artista": "John Lennon",
+        "significado": "canción utópica que sueña con un mundo de paz, sin divisiones religiosas, políticas o sociales"
+    },
+    {
+        "titulo": "Despacito",
+        "artista": "Luis Fonsi ft. Daddy Yankee",
+        "significado": "canción pegajosa que habla de una conexión romántica y apasionada entre dos personas"
+    },
+    {
+        "titulo": "Someone Like You",
+        "artista": "Adele",
+        "significado": "canción melancólica sobre la aceptación y el dolor tras la pérdida de un amor"
+    },
+    {
+        "titulo": "Stairway to Heaven",
+        "artista": "Led Zeppelin",
+        "significado": "una canción mística y profunda que toca temas de la espiritualidad y el viaje de la vida"
+    },
+    {
+        "titulo": "Hey Jude",
+        "artista": "The Beatles",
+        "significado": "una canción de consuelo y apoyo a alguien que está pasando por un momento difícil"
+    },
+    {
+        "titulo": "Hallelujah",
+        "artista": "Leonard Cohen",
+        "significado": "canción que mezcla elementos religiosos con temas de amor, desesperación y redención"
+    },
+    {
+        "titulo": "Like a Rolling Stone",
+        "artista": "Bob Dylan",
+        "significado": "una crítica social y personal sobre una caída en desgracia y la pérdida de estatus"
+    },
+    {
+        "titulo": "Thriller",
+        "artista": "Michael Jackson",
+        "significado": "canción que combina elementos de horror y diversión, narrando una historia misteriosa"
+    },
+    {
+        "titulo": "I Will Always Love You",
+        "artista": "Whitney Houston",
+        "significado": "una balada poderosa sobre el amor eterno y la despedida"
+    },
+    {
+        "titulo": "Back to Black",
+        "artista": "Amy Winehouse",
+        "significado": "una canción que refleja el dolor emocional tras una ruptura amorosa"
+    },
+    {
+        "titulo": "Uptown Funk",
+        "artista": "Mark Ronson ft. Bruno Mars",
+        "significado": "canción divertida y energética que celebra el estilo, la confianza y el éxito"
+    },
+    {
+        "titulo": "Let it Be",
+        "artista": "The Beatles",
+        "significado": "canción que transmite paz y aceptación ante los problemas de la vida"
+    },
+    {
+        "titulo": "Born to Run",
+        "artista": "Bruce Springsteen",
+        "significado": "canción sobre la libertad, el escape y el deseo de vivir intensamente"
+    },
+    {
+        "titulo": "Zombie",
+        "artista": "The Cranberries",
+        "significado": "una protesta contra la violencia y la guerra, especialmente el conflicto en Irlanda del Norte"
+    },
+    {
+        "titulo": "Wonder",
+        "artista": "Shawn Mendes",
+        "significado": "canción introspectiva sobre las expectativas, la vulnerabilidad y el deseo de ser comprendido"
+    },
+    {
+        "titulo": "Take on Me",
+        "artista": "A-ha",
+        "significado": "canción de amor que mezcla romanticismo con una energía vivaz y nostálgica"
+    },
+    {
+        "titulo": "All of Me",
+        "artista": "John Legend",
+        "significado": "una balada romántica dedicada al amor incondicional y la aceptación total de la pareja"
+    },
+    {
+        "titulo": "Viva La Vida",
+        "artista": "Coldplay",
+        "significado": "canción sobre el arrepentimiento, la reflexión y la pérdida de poder"
+    },
+    {
+        "titulo": "My Heart Will Go On",
+        "artista": "Celine Dion",
+        "significado": "canción sobre el amor eterno y la esperanza más allá de la pérdida"
+    },
+    {
+        "titulo": "Fix You",
+        "artista": "Coldplay",
+        "significado": "una balada sobre la compasión y el apoyo hacia alguien que está sufriendo"
+    },
+    {
+        "titulo": "Lose Yourself",
+        "artista": "Eminem",
+        "significado": "canción motivacional que habla de aprovechar las oportunidades y superar los desafíos"
+    },
+    {
+        "titulo": "Every Breath You Take",
+        "artista": "The Police",
+        "significado": "una canción de amor obsesivo que refleja el control y la vigilancia en una relación"
+    },
+    {
+        "titulo": "Don't Stop Believin'",
+        "artista": "Journey",
+        "significado": "un himno sobre la esperanza y la perseverancia ante la adversidad"
+    },
+    {
+        "titulo": "No Woman, No Cry",
+        "artista": "Bob Marley",
+        "significado": "canción que ofrece consuelo y esperanza, animando a seguir adelante pese a las dificultades"
+    },
+    {
+        "titulo": "Enter Sandman",
+        "artista": "Metallica",
+        "significado": "Que viene el hombre del saco"
+    }
+]
