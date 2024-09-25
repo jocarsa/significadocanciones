@@ -1,4 +1,6 @@
+//localStorage.setItem("usuario","jocarsa");
 
+console.log(localStorage.getItem("usuario"));
 
 window.onload = function(){
     console.log("web cargada")

@@ -1,4 +1,6 @@
+//localStorage.setItem("usuario","jocarsa");
 
+console.log(localStorage.getItem("usuario"));
 
 window.onload = function(){
     console.log("web cargada")
@@ -56,16 +58,23 @@ window.onload = function(){
     /*//////////////// FORMULARIO NUEVA CANCION ////////////////////*/
     
     document.getElementById("nueva").onclick = function(){
-        document.getElementById("formularionuevacancion").style.display = "block"
-        document.getElementById("formularionuevacancion").classList.add("aparece")
+        document.getElementById("modal").style.display = "block"
+        document.getElementById("modal").classList.add("aparece")
         console.log("ok")
+        if(localStorage.getItem("usuario") == undefined){
+            document.getElementById("formularionuevacancion").style.display = "none"
+            document.getElementById("formulariologin").style.display = "block"
+        }else{
+            document.getElementById("formularionuevacancion").style.display = "block"
+            document.getElementById("formulariologin").style.display = "none"
+        }
     }
     
     document.getElementById("enviar").onclick = function(){
         let titulo = document.getElementById("titulo").value
         let artista = document.getElementById("artista").value
         let significado = document.getElementById("significado").value
-        fetch("./nuevacancion.php?titulo="+encodeURI(titulo)+"&artista="+encodeURI(artista)+"&significado="+encodeURI(significado))
+        fetch("./nuevacancion.php?titulo="+encodeURI(titulo)+"&artista="+encodeURI(artista)+"&significado="+encodeURI(significado)+"&usuario="+localStorage.getItem("usuario"))
         .then(function(){
             fetch("canciones.json")                                                 // LLamo a un origen de datos
                 .then(function(response){                                               // Cuando obtengo respuesta
@@ -76,14 +85,31 @@ window.onload = function(){
                 
                 })
             setTimeout(function(){
-                document.getElementById("formularionuevacancion").style.display = "none"
+                document.getElementById("modal").style.display = "none"
             },1000)
-            document.getElementById("formularionuevacancion").classList.add("desaparece")
+            document.getElementById("modal").classList.add("desaparece")
             
         })
     }
     
     /*//////////////// FORMULARIO NUEVA CANCION ////////////////////*/
+    
+    /*//////////////// LOGIN ////////////////////*/
+    
+    document.getElementById("login").onclick = function(){
+        let usuario = document.getElementById("usuario").value
+        let contrasena = document.getElementById("contrasena").value
+        
+        fetch("login.php?usuario="+usuario+"&contrasena="+contrasena)
+        .then(function(response){                                               // Cuando obtengo respuesta
+                return response.json()                                              // Convierto la respuesta a JSON
+            })
+            .then(function(datos){                                                  // Y a continuación
+                console.log(datos) 
+            })
+    }
+    
+    /*//////////////// LOGIN ////////////////////*/
     
   
 }
@@ -107,6 +133,7 @@ function cargaCancion(cancion,plantilla,destino){
     instancia.querySelector("h3").innerHTML = cancion.titulo           // Le adapto el titulo
     instancia.querySelector("h4").innerHTML = cancion.artista          // Le adapto el arista
     instancia.querySelector("p").innerHTML = cancion.significado       // Le adapto el contenido
+    instancia.querySelector("h5").innerHTML = "por: "+cancion.usuario       // Le adapto el contenido
 
 
     instancia.querySelector("article").onclick = function(){

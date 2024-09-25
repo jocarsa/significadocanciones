@@ -1,4 +1,6 @@
+//localStorage.setItem("usuario","jocarsa");
 
+console.log(localStorage.getItem("usuario"));
 
 window.onload = function(){
     console.log("web cargada")
@@ -65,7 +67,7 @@ window.onload = function(){
         let titulo = document.getElementById("titulo").value
         let artista = document.getElementById("artista").value
         let significado = document.getElementById("significado").value
-        fetch("./nuevacancion.php?titulo="+encodeURI(titulo)+"&artista="+encodeURI(artista)+"&significado="+encodeURI(significado))
+        fetch("./nuevacancion.php?titulo="+encodeURI(titulo)+"&artista="+encodeURI(artista)+"&significado="+encodeURI(significado)+"&usuario="+localStorage.getItem("usuario"))
         .then(function(){
             fetch("canciones.json")                                                 // LLamo a un origen de datos
                 .then(function(response){                                               // Cuando obtengo respuesta
@@ -107,6 +109,7 @@ function cargaCancion(cancion,plantilla,destino){
     instancia.querySelector("h3").innerHTML = cancion.titulo           // Le adapto el titulo
     instancia.querySelector("h4").innerHTML = cancion.artista          // Le adapto el arista
     instancia.querySelector("p").innerHTML = cancion.significado       // Le adapto el contenido
+    instancia.querySelector("h5").innerHTML = "por: "+cancion.usuario       // Le adapto el contenido
 
 
     instancia.querySelector("article").onclick = function(){

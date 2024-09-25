@@ -1,0 +1,138 @@
+@font-face {
+  font-family: titulo;
+  src: url(fuentes/titulo.otf);
+}
+@font-face {
+  font-family: parrafo;
+  src: url(fuentes/parrafo.ttf);
+}
+body{
+    font-family: sans-serif;
+    background:beige;
+    font-family: parrafo,sans-serif;
+    
+}
+html,body,main,section{
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+h1{
+    font-family: titulo,sans-serif;
+    font-size:96px;
+    padding:0px;
+    margin:0px;
+    font-weight:normal;
+}
+h2{
+    font-size:12px;
+    padding:0px;
+    margin:0px;
+    font-weight:normal;
+}
+header{
+    text-align:center;
+    position:fixed;
+    width:100%;
+    background:beige;
+    padding-bottom:20px;
+}
+main{
+    text-align:center;
+    padding:20px;
+    padding-top:100px;
+    
+}
+article{
+    text-align:justify;
+    background:white;
+    padding:10px;
+    box-sizing: border-box;
+    margin-bottom:5px;
+    border-radius:5px;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.2);
+    height:100px;
+    overflow:hidden;
+    transition:all 1s;
+}
+#buscador{
+    width:100%;
+    padding:10px 0px;
+    margin-bottom:10px;
+    margin-top:20px;
+    text-align:center;
+    border-radius:5px;
+    border:1px solid rgb(220,220,220);
+    
+}
+#buscador:focus{
+    outline:none;
+    border:1px solid rgb(200,200,200);
+}
+article h3,article h4{
+    padding:0px;
+    margin:0px;
+}
+article h5{
+    padding:0px;
+    margin:0px;
+    float:right;
+    font-weight:normal;
+}
+article h4{
+    padding-left:20px;
+    font-weight:normal;
+    font-size:12px;
+}
+#nueva{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    width:50px;
+    height:50px;
+    background:green;
+    color:white;
+    text-align:center;
+    font-size:40px;
+    line-height:40px;
+    border-radius:50px;
+    cursor:pointer;
+}
+#modal{
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background:white;
+    text-align:center;
+    display:none;
+}
+#modal #formularionuevacancion input,#formularionuevacancion textarea,#formularionuevacancion button{
+    width:90%;
+    margin:10px 0px;
+    padding:10px 0px
+}
+
+.aparece{
+    animation:animacionaparece 1s;
+}
+.desaparece{
+    animation:animaciondesaparece 1s;
+}
+@keyframes animacionaparece{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@keyframes animaciondesaparece{
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
+.alturacompleta{
+    height:400px !important;
+}
+
+
+
+
+
