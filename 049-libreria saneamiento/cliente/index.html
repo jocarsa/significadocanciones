@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Significado de las canciones</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <script src="comportamiento.php"></script>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <header>
+            <h1>cancionario</h1>
+            <h2>Encuentra el significado de tus canciones favoritas</h2>
+        </header>
+        <main>
+            <input type="hidden" id="oculto" name="oculto">
+            <input type="text" name="buscador" id="buscador" placeholder="Introduce título, artista o palabras clave" autocomplete="off">
+            <section id="canciones">
+                
+            </section>
+        </main>
+        <footer>
+            <div id="modal">
+                <div id="formularionuevacancion">
+                    <h3>Introduce una nueva canción</h3>
+                    <input type="text" id="titulo" placeholder="Introduce el título de la canción">
+                    <input type="text" id="artista" placeholder="Introduce el artista que publica la canción">
+                    <textarea id="significado"></textarea>
+                    <button id="enviar">Envia</button>
+                </div>
+                <div id="formulariologin">
+                    <h3>Inicia sesión para poder enviar canciones</h3>
+                    <input type="text" id="usuario" placeholder="Introduce tu nombre de usuario">
+                    <input type="password" id="contrasena" placeholder="Introduce tu contraseña de usuario">
+                    <button id="login">Envia</button>
+                    <p id="retroalimentacion"></p>
+                </div>
+            </div>
+            <div id="nueva">+</div>
+        </footer>
+        <template id="cancion">
+            <article>
+                <h5>Usuario</h5>
+                <h3>Titulo</h3>
+                <h4>Artista</h4>
+                <p>Significado</p>
+            </article>
+        </template>
+    </body>
+</html>
