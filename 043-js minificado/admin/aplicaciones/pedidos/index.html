@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Factura</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo/estilo.css">
+        <script src="js/codigo.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            <h1>Factura</h1>
+            <section id="emisor" data-text="Emisor">
+                <h2>Jose Vicente Carratalá</h2>
+                <h3>La calle de Jose Vicente</h3>
+                <h4>46920 Valencia</h4>
+                <h5>12345678H</h5>
+                <h5>info@josevicentecarratala.com</h5>
+                <h5>620891718</h5>
+            </section>
+            <section id="receptor" data-text="Receptor">
+                <h2 class="razonsocial"></h2>
+                <h3 class="direccion"></h3>
+                <h4 class="cp"></h4>
+                <h5 class="identificacionfiscal"></h5>
+                <h5 class="email"></h5>
+                <h5 class="telefono"></h5>
+            </section>
+            <section id="fecha" data-text="Fecha de la factura">
+                
+            </section>
+            <section id="numerofactura" data-text="Número de la factura">
+                
+            </section>
+        </header>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cantidad</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Observaciones</th>
+                        <th></th>
+                        <th>Precio</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Esto es un comentario</td>
+                        <td></td>
+                        <td>Subtotal</td>
+                        <td id="subtotal">X</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>IVA 21%</td>
+                        <td id="impuesto">Y</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Total</td>
+                        <td id="total">Z</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </footer>
+    </body>
+</html>
